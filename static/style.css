@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing: border-box; */
+}
+
+body {
+  filter: brightness(110%);
+  /* min-height:100%; */
+  /* width:100%;  */
+  /* background-color: black; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  /* place-items: center; */
+  /* overflow: hidden; */
+  /* height: 100%; */
+  /* background: no-repeat; */
+ 
+  background-image: linear-gradient(
+    to right bottom,
+    #d16ba5,
+    #ba69ab,
+    #a167ae,
+    #8666ad,
+    #6964aa,
+    rgb(80, 106, 172),
+    #326eab,
+    #0472a6,
+    #007da4,
+    #00869f,
+    #1e8f98,
+    #409691
+  );
+  background-attachment: fixed;
+ 
+}
+#right-side-name{
+color: white;
+position: absolute;
+right:0;
+bottom:0;
+font-size:20px;
+font-weight: 600;
+padding:1rem;
+}
+#left-side-name{
+  position: absolute;
+color: white;
+left:0;
+font-weight: 600;
+top:0;
+font-size:20px;
+padding:1rem;
+}
+
+
+/* .main-container {
+  position: relative;
+ 
+  width:60%;
+  height: 50%;
+  text-align: center;
+  
+  gap: 4rem;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 14px 14px 20px rgb(127, 255, 212,0.2),
+    -8px -8px 20px rgb(127, 255, 212,0.2);
+} */
+
+.main-container h1 {
+  color:white;
+  font-size: 350%;
+  padding-top: 30px;
+  padding-bottom:30px;
+  text-shadow: 2px 2px 3px #2ecece;
+  text-shadow: #2ecece 0px 0px 39px;
+}
+.input {
+  padding-top: 1rem;
+
+}
+.input-upper-text{
+    color: white;
+    font-size:20px;
+    /* text-align: left; */
+    /* padding-left:10px; */
+}
+.input input {
+  background: #ecf0f3;
+  height: 2.5rem;
+  width: 17rem;
+  font-size: 16px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.main-container input{
+    margin-bottom: 20px;
+}
+
+#button{
+    
+    padding: 5px 15px 5px 15px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    color: rgb(80, 79, 79);
+    background-color:white;
+    border-radius: 29px;
+    font-size: 20px;
+    box-shadow: 14px 14px 20px rgb(127, 255, 212,0.2),
+    -8px -8px 20px rgb(127, 255, 212,0.2);
+}
+#button:hover{
+    background-color:aquamarine; 
+}
